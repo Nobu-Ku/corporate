@@ -67,6 +67,7 @@ border-radius: 50px;
 
 .container{
   text-align: center;
+  overflow: hidden;
 }
 
 h2{
@@ -524,7 +525,6 @@ header
   padding-right:0;
   padding-top: 5px;
   height:50px;
-  margin-bottom:10px;
 }
 
 .global-nav ul li:first-child{
@@ -538,14 +538,15 @@ header
 }
 
 .motto{
-  font-size: 68px;
+  font-size: 48px;
   line-height: 1.2;
-  /* padding-top:200px; */
+  padding-top: 100px;
 }
 
 .motto-desc{
   line-height: 1.5;
   padding-bottom: 20px;
+  padding-top: 60px;
 }
 
 .h2-topic::after{
