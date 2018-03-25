@@ -5,7 +5,7 @@ $(function(){
      var scroll = $(window).scrollTop();
      var windowHeight = $(window).height();
 
-     if(scroll > POS - windowHeight + windowHeight/2){
+     if(scroll > POS - windowHeight + windowHeight/3){
        $(this).css({
          'opacity':'1',
          'transform': 'translateX(0)'
@@ -22,7 +22,7 @@ $(function(){
      var scroll = $(window).scrollTop();
      var windowHeight = $(window).height();
 
-     if(scroll > POS - windowHeight + windowHeight/2){
+     if(scroll > POS - windowHeight + windowHeight/3){
        $(this).css({
          'opacity':'1',
          'transform': 'translateX(0)'
