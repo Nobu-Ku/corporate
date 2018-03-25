@@ -108,7 +108,6 @@ header{
 }
 
 .page-header{
-  display: none;
   background-color: white;
   position: fixed;
   top:0;
